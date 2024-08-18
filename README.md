@@ -1,1 +1,1 @@
-# kanbas_project_team3_backend
+# kanbas-node-server-app
