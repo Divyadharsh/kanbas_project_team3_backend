@@ -2,6 +2,7 @@ import model from "./model.js"
 
 export const createCourse = (course) => {
     course._id = new Date().getTime().toString()
+    course.image = "images/NEU.png"
     return model.create(course);
 }
 export const findAllCourses = () => model.find();

@@ -8,7 +8,7 @@ const courseSchema = new mongoose.Schema({
     department: String,
     credits: String,
     description: String,
-    img_url: String,
+    image: String,
 },
     { collection: "courses" });
 
